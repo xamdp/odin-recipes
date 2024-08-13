@@ -1,2 +1,3 @@
 # odin-recipes
-A project that focuses on HTML foundations course from The Odin Project
+
+A simple project that focuses on HTML foundations from The Odin Project
