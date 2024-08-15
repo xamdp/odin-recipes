@@ -1,0 +1,11 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	background-color: #E7E5E4;
+}
+
+.home-title {
+	font-weight: bold;
+}
+.ul-square {
+	list-style-type: square;
+}
