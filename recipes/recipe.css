@@ -1,0 +1,25 @@
+/* CUSTOM FONT */
+@font-face {
+	font-family: 'Alex Brush';
+	src: url(../fonts/AlexBrush-Regular.ttf)
+}
+
+/* BODY */
+body {
+	font-family: 'Courier New', Courier, monospace;
+	background-color: #E7E5E4;
+}
+
+/* RECIPE IMAGE */
+.recipe-image {
+	height: auto;
+	width: 300px;
+	border-radius: 11px;
+}
+
+/* RECIPE TITLE */
+.recipe-title {
+	/* font-weight: bold; */
+	font-family: 'Alex Brush', cursive;
+	font-size: 56px;
+}
