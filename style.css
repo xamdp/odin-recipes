@@ -1,11 +1,48 @@
+
+/* CUSTOM FONT */
+@font-face {
+	font-family: 'Alex Brush';
+	src: url(./fonts/AlexBrush-Regular.ttf)
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Courier New', Courier, monospace;
 	background-color: #E7E5E4;
 }
 
-.home-title {
-	font-weight: bold;
+.title-container {
+	height: 100px;
+	width: 300px;
+	margin: 0 auto;
+	padding: 26px 15px;
+	text-align: center;
+	/* border: 1px solid black; */
+	font-family: 'Alex Brush', cursive;
+	font-weight: 800;
+	font-size: 25px;
 }
-.ul-square {
-	list-style-type: square;
+
+.recipe-list {
+	text-align: center;
+	/* line-height: 1.6; */
+	/* border: 1px solid black; */
+	padding: 70px;
+	margin-top: 20px;
+}
+
+.ul-style {
+	/* display: inline; */
+	list-style-type: none;
+}
+
+.ul-style li {
+	display: inline-block;
+	margin-right: 30px; 
+	margin-left: 30px;
 }
